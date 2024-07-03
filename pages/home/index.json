@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "anniversary-card": "../components/cards/anniversary",
+    "countdown-card": "../components/cards/countdown",
+    "countdays-card": "../components/cards/countdays"
+  }
+}

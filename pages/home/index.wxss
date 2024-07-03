@@ -1,0 +1,18 @@
+.body {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+.main-page {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cards {
+  margin: 0 auto;
+  flex-direction: row;
+}
+.card-item {
+  margin: 20rpx;
+}

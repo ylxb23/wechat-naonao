@@ -1,0 +1,11 @@
+<!--pages/components/cards/countdown.wxml-->
+<view class="countdown-card">
+    <text class="title">{{title}}</text>
+    <view class="lastDays">
+    <view class="lastDaysLine">
+      <text class="last">{{lastDays}}</text>
+      <text class="days">天剩余</text>
+    </view>
+    </view>
+    <text class="date">{{date}}</text>
+  </view>

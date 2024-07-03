@@ -1,0 +1,22 @@
+<mp-navigation-bar title="{{title}}" back="{{true}}"></mp-navigation-bar>
+<scroll-view class="body" scroll-y type="list">
+  <view class="main-page">
+    <text class="user-motto">{{datetime}}</text>
+
+    <view wx:for="{{customCards}}" wx:key="title" >
+      <view class="cards">
+        <view wx:if="{{item.type == 1}}">
+          <anniversary-card class="card-item" title="{{item.title}}" hasDays="{{item.hasDays}}" date="{{item.date}}" ></anniversary-card>
+        </view>
+        <view wx:elif="{{item.type == 3}}">
+          <countdown-card class="card-item" title="{{item.title}}" lastDays="{{item.lastDays}}" date="{{item.date}}" ></countdown-card>
+        </view>
+        <view wx:elif="{{item.type == 5}}">
+          <countdays-card class="card-item" title="{{item.title}}" lastDays="{{item.days}}" date="{{item.date}}" ></countdays-card>
+        </view>
+      </view>
+      
+    </view>
+    
+  </view>
+</scroll-view>

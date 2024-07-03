@@ -1,0 +1,11 @@
+<!--pages/components/cards/anniversary.wxml-->
+<view class="anniversary-card">
+    <text class="title">{{title}}</text>
+    <view class="hasDays">
+      <view class="hasDaysLine">
+        <text class="has">{{hasDays}}</text>
+        <text class="days">天</text>
+      </view>
+    </view>
+    <text class="date">{{date}}</text>
+  </view>

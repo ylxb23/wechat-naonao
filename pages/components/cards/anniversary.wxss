@@ -1,0 +1,62 @@
+/* pages/components/cards/anniversary.wxss */
+.anniversary-card {
+  height: 300rpx;
+  width: 300rpx;
+  display: block;
+  background-color: #cccccc;
+  opacity: 0.7;
+  border-radius: 10rpx;
+}
+
+.title {
+  width: 100%;
+  height: 70rpx;
+  line-height: 50rpx;
+  padding-top: 20rpx;
+  font-size: 45rpx;
+  font-weight: 700;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  border-radius: 10rpx 10rpx 0rpx 0rpx;
+}
+
+.hasDays {
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center;  /* 垂直居中 */
+}
+.hasDaysLine {
+  height: 150rpx; 
+}
+.has {
+  height: 150rpx;
+  font-size: 85rpx;
+  font-weight: 700;
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  line-height: 150rpx;
+}
+.days {
+  height: 100rpx;
+  font-size: 25rpx;
+  font-weight: 700;
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  line-height: 150rpx;
+}
+.date {
+  width: 100%;
+  height: 70rpx;
+  font-size: 40rpx;
+  font-weight: 600;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  line-height: 50rpx;
+  border-radius: 0rpx 0rpx 10rpx 10rpx;
+}

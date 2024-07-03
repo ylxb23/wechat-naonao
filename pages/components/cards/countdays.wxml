@@ -1,0 +1,11 @@
+<!--pages/components/cards/countdays.wxml-->
+<view class="countdays-card">
+    <text class="title">{{title}}</text>
+    <view class="hasDays">
+      <view class="hasDaysLine">
+        <text class="has">{{days}}</text>
+        <text class="days">天了</text>
+      </view>
+    </view>
+    <text class="date">{{date}}</text>
+  </view>
